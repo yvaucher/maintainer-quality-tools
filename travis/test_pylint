@@ -1,6 +1,5 @@
 #!/bin/bash
 
-MODULES_TO_TEST=$TRAVIS_BUILD_DIR
 PYLINT_CONFIG_DIR="$(dirname $0)/cfg"
 
 # Fix pylint path. More info: https://www.mail-archive.com/code-quality@python.org/msg00294.html
